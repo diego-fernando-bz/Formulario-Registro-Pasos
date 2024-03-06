@@ -17,9 +17,11 @@ body {
     height: 300px;
     padding: 10px;
     display: flex;
-    flex-direction: column; /* Ajuste para alinear los elementos verticalmente */
-    justify-content: space-around; /* Ajuste para distribuir los elementos verticalmente */
-    align-items: center;
+    flex-direction: column;
+    /* Ajuste para alinear los elementos verticalmente */
+    justify-content: space-around;
+    /* Ajuste para distribuir los elementos verticalmente */
+    align-items: left;
     background-color: #212936;
     color: white;
     border: 1px solid white;
@@ -35,9 +37,25 @@ h1 {
 }
 
 .cuadradoRegistro button#btn1 {
-    background-color: #212936;
+    background-color: #4b22ac;
     color: white;
     border: 1px solid white;
     border-radius: 10px;
-    padding: 10px 20px; /* Ajuste para dar más espacio al botón */
+    padding: 10px 20px;
+    /* Ajuste para dar más espacio al botón */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+input {
+    width: 80%;
+    background-color: #212936;
+    color: #a4aebd;
+    border: 1px solid #a4aebd;
+    border-radius: 10px;
+    padding: 10px;
 }

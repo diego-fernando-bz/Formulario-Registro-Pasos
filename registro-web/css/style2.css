@@ -1,0 +1,28 @@
+body {
+    background-color: #121826;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.cuadrado {
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: #212936;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.opciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}

@@ -38,4 +38,12 @@ height: 100%;
 background: #212837;  
 display: grid;
 grid-template: repeat(30, 1fr) / repeat(30, 1fr);  /*crea la cuadricula del escenario*/
+} 
+
+.play-board .food{
+    background: #ff003d;
+}
+
+.play-board .head{
+    background: #239c21;
 }

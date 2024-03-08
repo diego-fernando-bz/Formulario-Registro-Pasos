@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,37 +13,41 @@ body{
     background: #e3f2fd;
 }
 
-.wrapper{
+.wrapper {
     width: 65vmin;
     height: 70vmin;
     display: flex;
     flex-direction: column;
-    overflow: hidden; /*  para ocultar elementos que sobrepasen */
+    overflow: hidden;
+    /*  para ocultar elementos que sobrepasen */
     border-radius: 5px;
     background: #293447;
 }
 
-.game-details{
+.game-details {
     color: #b8c6dc;
-    font: size 1.2rem; 
+    font: size 1.2rem;
     font-weight: 500;
     padding: 20px 27px;
-    display: flex;/*me permite mover objetos los pone en linea*/
-    justify-content: space-between;/*espacio entre el texto */
+    display: flex;
+    /*me permite mover objetos los pone en linea*/
+    justify-content: space-between;
+    /*espacio entre el texto */
 }
 
-.play-board{
-width: 100%;
-height: 100%;
-background: #212837;  
-display: grid;
-grid-template: repeat(30, 1fr) / repeat(30, 1fr);  /*crea la cuadricula del escenario*/
-} 
+.play-board {
+    width: 100%;
+    height: 100%;
+    background: #212837;
+    display: grid;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+    /*crea la cuadricula del escenario*/
+}
 
-.play-board .food{
+.play-board .food {
     background: #ff003d;
 }
 
-.play-board .head{
+.play-board .head {
     background: #239c21;
 }

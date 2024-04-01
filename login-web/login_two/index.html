@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sesion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <section class="seccionleft ">
+            <h1>esta es informacion</h1>
+        </section>
+        <section class="seccionright">
+            <div id="loginForm">
+                <h2>iniciar sesion</h2>
+                <form class="log">
+                    <label for="Username">Usuario</label><br>
+                    <input type="text" id="Username" name="Usuario" required>
+                    <br>
+                    <label for="Password">Password</label><br>
+                    <input type="password" id="Password" name="Password" required>
+                    <br>
+                    <label for="email">e-mail</label><br>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <input type="checkbox" id="terminos" name="terms" required>
+                    <label for="terminos">Acepto los terminos de servicio</label>
+                    <br>
+                    <button type="submit">Ingresar</button>
+                    <p>no tienes cuenta? <a href="#" onclick="mostrarRegistro()">Registrarse</a></p>
+                </form>
+            </div>
+            <div id="signupForm">
+                <h2>registrate</h2>
+                <form class="sig">
+                    <label for="newUsername">Nuevo Usuario:</label> <br>
+                    <input type="text" id="newUsername" name="newUsername" required>
+                    <br>
+                    <label for="newPassword">Nueva Contraseña:</label> <br>
+                    <input type="password" id="newPassword" name="newPassword" required>
+                    <br><br>
+                    <button type="submit">Registrarse</button>
+                <p>ya tienes cuenta? <a href="#" onclick="mostrarLogin()">iniciar secion</a></p>
+
+                </form>
+            </div>
+
+        </section>
+
+    </div>
+    <script>
+        // las funciones para mostrar 
+        function mostrarLogin() {
+            document.getElementById("loginForm").style.display = "block";
+            document.getElementById("signupForm").style.display = "none";
+
+        }
+        function mostrarRegistro() {
+            document.getElementById("loginForm").style.display = "none";
+            document.getElementById("signupForm").style.display = "block";
+
+        }
+    </script>
+</body>
+
+</html>

@@ -1,4 +1,4 @@
 # Formulario-Registro-Pasos
- en este repositorio creo una aplicacion web que realiza un formulario de registro con tres paginas 
- ademas realizo en otras carpetas el seguimiento de mis proyectos
+ este repositorio contiene la mayoria de  los proyectos personales creados por Diego fernando basante zambrano
+ para mas informacion te puedes comunicar  a travez de mi gmail  diegozambrano237@gmail.com
 
